@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+html {
+ 
+    font-size: 62.5%;
+    overflow-x: hidden;
+  
+    height: 100vh;
+  
+  
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(228, 76, 160);
+    cursor: pointer;
+  
+   
+  }
+  
+  ul, ol {
+    list-style-type: none;
+  }
+  
+  body {
+    font-family: "Syne", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+  
+    /* Only works if there is nothing absolutely positioned in relation to body */
+    overflow-x: hidden;
+  }
+  
+  h2 {
+    font-family: "Syne", sans-serif;
+  }
+  
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
+  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  
+    width: 100%;
+    height: auto;
+  }
+  
+  section {
+    display: block;
+  }
+  
+  main {
+    display: block;
+  }
+  
+  
+  
+  
+  
+  /* HEADER */
+  
+  .logo {
+    height: 20rem;
+  }
+  
+  .header {
+    font-size: 2.2rem;
+    height: 9.6rem;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-list {
+    list-style: none;
+    gap: 5rem;
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  .container {
+    /* 1140px */
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+  }
+  
+  /**** INDEX ****/
+  
+  .section-nosotros {
+    background-color: #ffffff;
+    padding-top: 2rem;
+  }
+  
+  .box-nosotros {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+  }
+  
+  .sobre-nosotros {
+    font-size: 4.2rem;
+    line-height: 1.05;
+    margin-bottom: 3.2rem;
+  }
+  
+  .nosotros-descripcion {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+    /*
+    font-family: 'Rubik', sans-serif;*/
+  }
+  
+  .img-nosotros {
+    width: 100%;
+  }
+  
+  /**** MARCAS ****/
+  
+  .nuestras-marcas {
+    padding: 4.6rem 0;
+    font-size: 3.2rem;
+    line-height: 1.05;
+    margin-bottom: 3.2rem;
+  }
+  
+  .section-marcas {
+    padding: 2.6rem 0;
+    font-size: 1.5rem;
+    line-height: 1.05;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10.4rem;
+    row-gap: 5
+  }
